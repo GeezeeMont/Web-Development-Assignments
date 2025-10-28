@@ -1,0 +1,48 @@
+:root {
+	--primaryColor: rgb(235, 235, 255);
+	--secondaryColor: rgb(200, 200, 200);
+	--borderColor: rgb(120, 120, 120);
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: var(--primaryColor);
+}
+
+.dropShadow {
+	border-bottom: 4px solid var(--borderColor);
+	border-right: 4px solid var(--borderColor);$
+}
+
+.topHeader {
+	width: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	background-color: var(--secondaryColor);
+	
+	padding: 10px 0px;
+}
+
+.sectionBox {
+	background-color: var(--secondaryColor);
+	padding: 10px 10px;
+}
+
+.navButton {
+	padding: 1px 10px;	
+	
+	margin: 0px 3px;
+	
+	text-decoration: none;
+	background-color: rgb(180, 180, 180);
+	border: 1px solid black;
+	border-radius: 25%;
+}
+.navButton:hover {
+	background-color: rgb(255, 255, 255);
+}
